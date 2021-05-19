@@ -1,1 +1,1 @@
-web: waitress-serve --port=8000 cryptocurr.wsgi:application
+web :gunicorn cryptocurr.wsgi
