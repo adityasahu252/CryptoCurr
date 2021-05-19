@@ -13,9 +13,9 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 SECRET_KEY = 'w2d0ufb3$hko*@qd7!(o!57b#b+qt+4afpr(ob$g$*8z^y$5c4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['salty-oasis-46286.herokuapp.com','127.0.0.1']
 
 
 # Application definition
