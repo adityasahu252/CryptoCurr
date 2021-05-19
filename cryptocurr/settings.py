@@ -69,9 +69,14 @@ WSGI_APPLICATION = 'cryptocurr.wsgi.application'
 DATABASES = {
       'default': {
           'ENGINE': 'djongo',
-          'NAME': 'cryptocurr',
+          'NAME': ' d1g5bmhrmge3i',
+          'HOST':'ec2-35-170-85-206.compute-1.amazonaws.com',
+          'PORT':5432,
+          'USER':'ypjphlcxggjzwh',
+          'PASSWORD':'642930a2b14e4d80f824ebfcfdffdcaad7871953ec4088d9748c8084bde0d63e'
       }
   }
+ 
 
 
 # Password validation
